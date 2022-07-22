@@ -31,4 +31,46 @@ $(function () {
     slidesToShow: 3,
   })
 
+  $('.lowest .control i:nth-child(1)').on('click', function () {
+    $('.lowest .lowest_slide').slick('slickPrev')
+  })
+
+  $('.lowest .control i:nth-child(2)').on('click', function () {
+    $('.lowest .lowest_slide').slick('slickNext')
+  })
+
+
+  $('.service .left .list p').on('click', function (e) {
+    e.preventDefault();
+    $(this).addClass('on').parent().parent().siblings().find('p').removeClass('on')
+
+    var idx = $(this).parent().parent().index();
+    $('.service .right figure').eq(idx).addClass('on').siblings().removeClass('on')
+  })
+
+  $('.promo .left_slider').slick({
+    arrows: false,
+    slidesToShow: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    asNavFor: '.promo .right_slider',
+    pauseOnHover: false,
+    pauseOnFocus: false,
+  })
+
+  $('.promo .right_slider').slick({
+    arrows: false,
+    slidesToShow: 1,
+    asNavFor: '.promo .left_slider',
+    pauseOnHover: false,
+    pauseOnFocus: false,
+  })
+
+  $('.promo .control i:nth-child(1)').on('click', function () {
+    $('.promo .left_slider').slick('slickPause')
+  })
+
+  $('.promo .control i:nth-child(2)').on('click', function () {
+    $('.promo .right_slider').slick('slickPlay')
+  })
 })

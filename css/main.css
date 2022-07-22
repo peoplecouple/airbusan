@@ -1,8 +1,8 @@
 Wrap {}
 
-* {
+/* * {
   outline: 1px solid #f00;
-}
+} */
 
 @font-face {
   font-family: 'godoB';
@@ -121,7 +121,7 @@ Wrap {}
 .main_visual .control {
   position: absolute;
   top: 50%;
-  left: 360px;
+  left: 348px;
   font-size: 25px;
   color: #fff;
 }
@@ -129,12 +129,12 @@ Wrap {}
 .main_visual .main_tab {
   position: absolute;
   bottom: 100px;
-  left: 360px;
-
+  left: 350px;
 }
 
 .main_visual .main_tab .tab_menu {
   display: flex;
+  cursor: pointer;
 }
 
 .main_visual .main_tab .tab_menu>div {
@@ -445,7 +445,8 @@ Wrap {}
 }
 
 .lowest {
-  padding: 0 0 100px 0;
+  position: relative;
+  padding: 0 0 145px 0;
 }
 
 .lowest .container>h2 {
@@ -467,3 +468,331 @@ Wrap {}
 .lowest .slick-slide {
   margin: 0 15px;
 }
+
+.lowest .lowest_slide figure {
+  position: relative;
+  border-radius: 15px;
+
+}
+
+.lowest .lowest_slide figure img {
+  width: 350px;
+  height: 430px;
+}
+
+.lowest .lowest_slide .inner {
+  position: absolute;
+  top: 69%;
+  padding: 28px;
+}
+
+.lowest .lowest_slide .inner h2 {
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+
+.lowest .lowest_slide .inner p {
+  font-size: 15px;
+  font-weight: 300;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.lowest .lowest_slide .price {
+  display: flex;
+}
+
+.lowest .lowest_slide .price p:nth-child(1), .lowest .lowest_slide .price p:nth-child(3) {
+  padding-top: 5px;
+  margin-right: 5px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #000;
+}
+
+.lowest .lowest_slide .price p:nth-child(2) {
+  font-size: 21px;
+  font-weight: 700;
+  color: #003399;
+  margin-right: 5px;
+}
+
+
+.lowest .lowest_slide::after {
+  content: "";
+  position: absolute;
+  top: 30%;
+  margin-left: -45px;
+  width: 1200px;
+  height: 370px;
+  background: #d2e6fa;
+  border-radius: 15px;
+  z-index: -1;
+}
+
+.lowest .control i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 31px;
+  padding: 13px;
+  border-radius: 50%;
+  color: #fff;
+  background: #bbbbbb;
+  cursor: pointer;
+}
+
+.lowest .control i:nth-child(1) {
+  margin: 0 0 0 -600px;
+}
+
+.lowest .control i:nth-child(2) {
+  margin: 0 0 0 600px;
+}
+
+.service {
+  padding: 100px 0;
+}
+
+.service .container {
+  position: relative;
+  display: flex;
+  gap: 97px;
+}
+
+.service .left .title {
+  padding: 85px 0 45px 0;
+}
+
+.service .left .title h2 {
+  font-size: 31px;
+  font-family: "godoB";
+  margin-bottom: 20px;
+}
+
+.service .left .title p {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.3;
+}
+
+.service .left .list {
+  background: #f2f5f7;
+  width: 330px;
+  height: 330px;
+  border-radius: 15px;
+  padding: 45px 30px;
+}
+
+
+.service .left .list li {
+  line-height: 45px;
+  margin-bottom: 20px;
+}
+
+.service .left .list li a {
+  display: flex;
+}
+
+.service .left .list figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: #fff;
+  margin-right: 20px;
+}
+
+.service .left .list img {
+  width: 21px;
+  height: 22px;
+}
+
+.service .left .list li:nth-child(3) img {
+  width: 25px;
+}
+
+.service .left .list p {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.service .left .list p.on {
+  color: #003399;
+  font-weight: 700;
+}
+
+.service .right figure {
+  display: none;
+}
+
+.service .right figure.on {
+  display: block;
+}
+
+.service .right figure img {
+  margin-bottom: 40px;
+}
+
+
+.service .right figure .inner {
+  position: relative;
+}
+
+.service .right figure .inner p {
+  width: 100%;
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.service .right figure .inner a {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: block;
+  font-size: 15px;
+}
+
+.service .right figure .inner a i {
+  font-size: 13px;
+}
+
+.service .right figure::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: block;
+  width: 840px;
+  height: 390px;
+  border-radius: 15px;
+  background: #f2f5f7;
+  z-index: -1;
+}
+
+.promo {
+  position: relative;
+  padding: 100px 0 182px 0;
+}
+
+.promo h2 {
+  font-family: 'godoB';
+  font-size: 31px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.promo .container {
+  position: relative;
+  display: flex;
+}
+
+.promo .right_slider {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  top: 60px;
+  width: 627px;
+}
+
+.promo .left_slider, .promo .right_slider {
+  overflow: hidden;
+}
+
+.promo .right_slider figure p:nth-child(1) {
+  font-size: 25px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.promo .right_slider figure p:nth-child(2) {
+  font-size: 35px;
+  font-family: "godoB";
+  margin-bottom: 60px;
+}
+
+.promo .right_slider figure p:nth-child(3) {
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.promo .right_slider figure p:nth-child(4) {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.promo .right_slider figure p:nth-child(4) i {
+  font-size: 13px;
+}
+
+.promo .left_slider figure img {
+  width: 627px;
+  height: 425px;
+}
+
+.promo .right_slider figure {
+  width: 627px;
+  height: 425px;
+  background: #fffbea;
+  border-radius: 15px;
+  padding-top: 80px;
+  padding-left: 105px;
+}
+
+.promo .control {
+  position: absolute;
+  top: 85%;
+  left: 56.5%;
+  display: flex;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.promo::after {
+  content: "";
+  position: absolute;
+  top: 213px;
+  display: block;
+  width: 1900px;
+  height: 420px;
+  background: #d2e6fa;
+  z-index: -3;
+}
+
+
+.banners {
+  padding: 100px 0 80px 0;
+}
+
+.banners .container {
+  display: flex;
+  gap: 30px;
+}
+
+.banners .container>div {
+  flex: 1;
+  width: 380px;
+  height: 150px;
+  border-radius: 15px;
+}
+
+.banners .container .left {
+  background: #fffbea;
+}
+
+.banners .container .center {
+  background: #ffe7cb;
+}
+
+.banners .container .right {
+  background: #ffdacb;
+}
+
+
+/* *{outline: 1px solid #f00;} */
