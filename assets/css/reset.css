@@ -14,6 +14,10 @@ a {
   text-decoration: none;
 }
 
+address {
+  font-style: normal;
+}
+
 ul,
 ol {
   list-style: none;
