@@ -280,11 +280,7 @@ Wrap {}
   font-weight: 500;
 }
 
-<<<<<<< HEAD
 .main_tab .tab_form .bottom .xi-arrows-h, .bottom .xi-calendar, .bottom .xi-user-o {
-=======
-.main_tab .tab_form .bottom .xi-arrows-h, .bottom .xi-calendar,.bottom .xi-user-o {
->>>>>>> 55e5d0f8e4d7115662c60c2c7cd36f5aecebdf8a
   line-height: 36px;
   font-size: 25px;
 }
@@ -489,11 +485,6 @@ Wrap {}
 .lowest .lowest_slide figure img {
   width: 350px;
   height: 430px;
-<<<<<<< HEAD
-
-=======
-  
->>>>>>> 55e5d0f8e4d7115662c60c2c7cd36f5aecebdf8a
 }
 
 .lowest .lowest_slide .inner {
@@ -653,11 +644,6 @@ Wrap {}
 
 .service .right figure.on {
   display: block;
-<<<<<<< HEAD
-
-=======
-  
->>>>>>> 55e5d0f8e4d7115662c60c2c7cd36f5aecebdf8a
 }
 
 .service .right figure img {
@@ -836,7 +822,6 @@ Wrap {}
 .banners .inner {
   padding: 47px 40px;
 }
-<<<<<<< HEAD
 
 .banners .left img {
   position: absolute;
@@ -990,30 +975,31 @@ Wrap {}
   background: #003399;
   color: #fff;
 }
-=======
 
-.banners .left img{
+.banners .left img {
   position: absolute;
   top: 0;
   right: 0;
 }
 
-.banners .center img{
+.banners .center img {
   position: absolute;
   bottom: 0;
   right: -10px;
 }
 
-.banners .right img{
+.banners .right img {
   position: absolute;
   bottom: 5px;
   right: -30px;
 }
+
 .banners .inner p:nth-child(1) {
   font-size: 25px;
   font-family: "godoB";
   margin-bottom: 12px;
 }
+
 .banners .inner p:nth-child(2) {
   font-size: 17px;
   font-family: "godoM";
@@ -1025,19 +1011,19 @@ Wrap {}
   border-top: 1px solid #f5f5f5;
 }
 
-.footer .info{
+.footer .info {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 80px;
 }
 
-.footer .info>div{
+.footer .info>div {
   display: flex;
   align-items: center;
 }
 
-.footer .left_info{
+.footer .left_info {
   width: 300px;
   height: 40px;
   background: #f5f5f5;
@@ -1045,15 +1031,15 @@ Wrap {}
   padding-left: 20px;
 }
 
-.footer .center_info{
+.footer .center_info {
   width: 308px;
   height: 40px;
   background: #f5f5f5;
-  border-radius: 15px;  
+  border-radius: 15px;
   padding-left: 15px;
 }
 
-.footer .right_info{
+.footer .right_info {
   width: 396px;
   height: 40px;
   background: #f5f5f5;
@@ -1061,12 +1047,12 @@ Wrap {}
   padding-left: 15px;
 }
 
-.footer .info>div p:nth-child(1){
+.footer .info>div p:nth-child(1) {
   font-size: 15px;
   margin-right: 23px;
 }
 
-.footer .info>div p:nth-child(2){
+.footer .info>div p:nth-child(2) {
   font-size: 25px;
   font-weight: 500;
   color: #003399;
@@ -1078,12 +1064,13 @@ Wrap {}
   font-size: 15px;
   font-weight: 300;
 }
+
 .footer .bottom .footer_top {
   display: flex;
   justify-content: space-between;
 }
 
-.footer .bottom .footer_top .basic dd~dd::before{
+.footer .bottom .footer_top .basic dd~dd::before {
   content: "";
   display: inline-block;
   margin: 0 25px;
@@ -1092,7 +1079,7 @@ Wrap {}
   background: #666;
 }
 
-.footer .bottom .footer_top .specific dd~dd::before{
+.footer .bottom .footer_top .specific dd~dd::before {
   content: "";
   display: inline-block;
   margin: 0 25px;
@@ -1101,17 +1088,17 @@ Wrap {}
   background: #666;
 }
 
-.footer .bottom .footer_top .left .basic{
+.footer .bottom .footer_top .left .basic {
   display: flex;
   margin-bottom: 10px;
 }
 
-.footer .bottom .footer_top .left .specific{
+.footer .bottom .footer_top .left .specific {
   display: flex;
   margin-bottom: 57px;
 }
 
-.footer .bottom .footer_top .right img{
+.footer .bottom .footer_top .right img {
   width: 150px;
 }
 
@@ -1120,25 +1107,24 @@ Wrap {}
   justify-content: space-between;
 }
 
-.footer .footer_bottom .left>*{
+.footer .footer_bottom .left>* {
   margin-bottom: 10px;
 }
 
-.footer .footer_bottom .left>*:last-child{
+.footer .footer_bottom .left>*:last-child {
   margin-bottom: 0;
 }
 
-.footer .footer_bottom .right{
+.footer .footer_bottom .right {
   display: flex;
   align-items: flex-end;
   gap: 20px;
   font-size: 25px;
 }
-.footer .footer_bottom .right i{
+
+.footer .footer_bottom .right i {
   padding: 5px;
   border-radius: 50%;
   background: #003399;
   color: #fff;
 }
-
->>>>>>> 55e5d0f8e4d7115662c60c2c7cd36f5aecebdf8a
