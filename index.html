@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="assets/css/slick.css">
   <link rel="stylesheet" href="assets/css/hamburgers.min.css">
   <link rel="stylesheet" href="css/main.css">
-
+  <!-- https://jonsuh.com/hamburgers/ -->
 </head>
 
 <body>
@@ -26,10 +26,44 @@
 
         <nav class="gnb">
           <ul>
-            <li><a href="">예매</a></li>
-            <li><a href="">마이페이지</a></li>
-            <li><a href="">서비스</a></li>
-            <li><a href="">이벤트</a></li>
+            <li>
+              <a href="">예매</a>
+              <ul class="smenu">
+                <li><a href="">항공권 예약</a></li>
+                <li><a href="">예약 조회</a></li>
+                <li><a href="">체크인 하기</a></li>
+                <li><a href="">운항정보</a></li>
+                <li><a href="">취항지정보</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="">마이페이지</a>
+              <ul class="smenu">
+                <li><a href="">회원정보 수정</a></li>
+                <li><a href="">구매내역</a></li>
+                <li><a href="">부가서비스 쿠폰</a></li>
+                <li><a href="">스탬프 조회</a></li>
+                <li><a href="">제휴사 예약조회</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="">서비스</a>
+              <ul class="smenu">
+                <li><a href="">스탬프</a></li>
+                <li><a href="">도움이 필요하신 손님</a></li>
+                <li><a href="">공항 서비스</a></li>
+                <li><a href="">수화물</a></li>
+                <li><a href="">기내 서비스</a></li>
+                <li><a href="">부가서비스 구매</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="">이벤트</a>
+              <ul class="smenu">
+                <li><a href="">진행중인 이벤트</a></li>
+                <li><a href="">당첨자 발표</a></li>
+              </ul>
+            </li>
           </ul>
         </nav>
 
@@ -39,8 +73,14 @@
           <a href=""><i class="xi-search"></i></a>
         </div>
       </div>
-    </header>
 
+      <div class="mbtn">
+        <i class="xi-bars on"></i>
+        <i class="xi-close"></i>  
+      </div>
+
+    </header>
+    <!-- backdrop-filter: blur(10); -->
     <main>
       <section class="main_visual">
         <div class="main_slide">
@@ -347,8 +387,16 @@
         <h2>프로모션</h2>
         <div class="container">
           <div class="left_slider">
-            <figure><img src="img/promo_l_02.jpg" alt=""></figure>
-            <figure><img src="img/promo_l_01.jpg" alt=""></figure>
+            <figure>
+              <a href="">
+                <img src="img/promo_l_02.jpg" alt="">
+              </a>
+            </figure>
+             <figure>
+              <a href="">
+                <img src="img/promo_l_01.jpg" alt="">
+              </a>
+            </figure>
           </div>
           <div class="right_slider">
             <figure>
@@ -458,9 +506,6 @@
             </div>
           </div>
         </div>
-
-
-
       </div>
     </footer>
   </div>

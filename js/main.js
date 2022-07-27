@@ -36,6 +36,12 @@ $(function () {
     pauseOnHover: false,
     pauseOnFocus: false,
     slidesToShow: 3,
+    responsive: [{
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 2,
+      }
+    }]
   })
 
   $('.lowest .control i:nth-child(1)').on('click', function () {
@@ -95,4 +101,39 @@ $(function () {
   $('.promo .control i:nth-child(2)').on('click', function () {
     $('.promo .right_slider').slick('slickPlay')
   })
+
+
+  // 반응형때
+
+  $('.mbtn i').on('click', function () {
+    $('.gnb').toggleClass('on')
+    if ($('.mbtn i:nth-child(1)').hasClass('on')) {
+      $('.mbtn i:nth-child(1)').removeClass('on').siblings().addClass('on')
+    } else {
+      $('.mbtn i:nth-child(2)').removeClass('on').siblings().addClass('on')
+    }
+  })
+
+  $('.gnb>ul>li>a').on('click', function (e) {
+    if ($('.gnb').hasClass('on')) {
+      e.preventDefault();
+      $('.smenu').slideUp();
+      $(this).next().stop().slideToggle()
+    }
+  })
+
+  $(window).on('resize', function () {
+    $('.gnb').removeClass('on')
+    $('.smenu').removeAttr('style')
+  })
+  // $('.header .gnb>ul>li>a').on('click', function(e){
+  //   if($(window).width() < 769) {
+  //     e.preventDefault();
+  //     // $('.smenu').hide();
+
+  //   }
+  // })
+
+
+
 })
