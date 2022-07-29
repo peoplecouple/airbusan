@@ -1294,7 +1294,6 @@ Wrap {}
   }
 
   .main_slide .inner h2 {
-    text-shadow: 0 0 3px #000;
     font-family: 'godoB';
     font-size: 7vw;
     line-height: 1.1;
@@ -1302,7 +1301,6 @@ Wrap {}
   }
 
   .main_slide .inner p {
-    text-shadow: 0 0 3px #000;
     font-family: 'godoM';
     font-size: 3.5vw;
     line-height: 1.3;
