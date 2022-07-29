@@ -149,6 +149,7 @@ $(function () {
     $('.mbtn i:nth-child(1)').addClass('on')
     $('.mbtn i:nth-child(2)').removeClass('on')
     $('.smenu').removeAttr('style')
+    $('.gnb>ul>li>div>a').next().removeClass('on')
 
     var width = window.outerWidth;
     if (width <= 768) {

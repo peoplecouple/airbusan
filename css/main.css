@@ -1106,7 +1106,7 @@ Wrap {}
     line-height: 40px;
     background: #fff;
     padding: 10px 20px;
-    z-index: 999;
+    z-index: 1000;
     transition: 0.5s;
   }
 
@@ -1236,7 +1236,6 @@ Wrap {}
     display: none;
   }
 
-
   .mbtn i.on {
     display: block;
     position: fixed;
@@ -1247,7 +1246,7 @@ Wrap {}
     line-height: 1;
     border-radius: 5px;
     font-size: 23px;
-    z-index: 999;
+    z-index: 1001;
     cursor: pointer;
   }
 
@@ -1282,7 +1281,6 @@ Wrap {}
   .main_visual .main_slide .third_slide {
     background: url(../img/main_slide03.jpg) no-repeat center center/cover;
   }
-
 
   .main_visual .main_slide .inner {
     position: absolute;
