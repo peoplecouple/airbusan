@@ -567,7 +567,7 @@ Wrap {}
 
 .lowest .lowest_slide .inner {
   position: absolute;
-  top: 69%;
+  top: 68%;
   padding: 28px;
 }
 
@@ -850,7 +850,7 @@ Wrap {}
 .promo .control {
   position: absolute;
   top: 85%;
-  left: 56.5%;
+  left: 56%;
   display: flex;
   font-size: 25px;
   cursor: pointer;
