@@ -61,7 +61,7 @@ Wrap {}
 
 .header .gnb>ul>li>div>a {
   display: block;
-  padding: 0 50px;
+  padding: 0 30px;
 }
 
 .header .gnb>ul>li>div>i {
@@ -86,17 +86,18 @@ Wrap {}
   left: 0%;
   padding-left: 0%;
   width: 100%;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(0, 0, 0, 0.1);
   z-index: 999;
 }
 
 .header .smenu li {
   text-align: center;
   line-height: 40px;
-  height: 41px;
+  height: 42px;
   font-size: 15px;
   font-family: 'Noto Sans KR', sans-serif;
   font-weight: 300;
+  color: #fff;
 }
 
 .header .smenu li a {
@@ -115,7 +116,6 @@ Wrap {}
 
 }
 
-
 .header .smenu>li::after {
   content: "";
   display: none;
@@ -128,11 +128,6 @@ Wrap {}
 .header .smenu>li:hover::after {
   display: block;
 }
-
-
-
-
-
 
 .mbtn i {
   display: none;
@@ -231,11 +226,11 @@ Wrap {}
 }
 
 .main_visual .main_tab .tab_menu>div:nth-child(2) {
-  background: #cae2fa;
+  background: #888;
 }
 
 .main_visual .main_tab .tab_menu>div:nth-child(3) {
-  background: #888;
+  background: #444;
 }
 
 .main_visual .main_tab .tab_menu>div.on {
@@ -1108,6 +1103,7 @@ Wrap {}
     padding: 10px 20px;
     z-index: 1000;
     transition: 0.5s;
+
   }
 
   .header .gnb.on {
@@ -1204,6 +1200,7 @@ Wrap {}
     text-align: left;
     padding: 0px;
     border-bottom: 1px solid #fff;
+    color: #000;
   }
 
 

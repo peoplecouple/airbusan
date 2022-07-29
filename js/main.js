@@ -134,6 +134,7 @@ $(function () {
     }
   })
 
+
   $('.gnb>ul>li>div>a').on('click', function (e) {
     if ($('.gnb').hasClass('on')) {
       e.preventDefault();
